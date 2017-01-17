@@ -17,6 +17,7 @@ namespace RestAPITestDemo
     {
         static void Main(string[] args)
         {
+            // start...
             var client = new Client();
             client.EndPoint = @"http://jsonplaceholder.typicode.com";
             // client.Method = Verb.GET;
